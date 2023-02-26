@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane stylesheets="@botones.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btn1" layoutX="74.0" layoutY="100.0" mnemonicParsing="false" onAction="#click" stylesheets="@../css/botones.css" text="Button" />
+            <TextField fx:id="nombre" layoutX="26.0" layoutY="14.0" />
+            <TextField fx:id="apellido" layoutX="25.0" layoutY="55.0" />
+            <TextArea fx:id="result" layoutX="10.0" layoutY="131.0" prefHeight="55.0" prefWidth="185.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
